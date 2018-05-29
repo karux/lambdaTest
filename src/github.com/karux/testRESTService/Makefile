@@ -4,3 +4,4 @@ build:
 	env GOOS=linux go build -ldflags="-s -w" -o bin/world world/main.go
 	env GOOS=linux go build -ldflags="-s -w" -o bin/iface iface/main.go
 	env GOOS=darwin go build -ldflags="-s -w" -o bin/clients clients/main.go
+	env GOOS=darwin go build -ldflags="-s -w" -o bin/listFuncs listFuncs/main.go
