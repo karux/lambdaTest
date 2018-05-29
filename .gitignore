@@ -4,6 +4,10 @@
 *.dll
 *.so
 *.dylib
+/bin/**
+/tooling/**
+/pkg/**
+/vendor/*
 
 # Test binary, build with `go test -c`
 *.test
